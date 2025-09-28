@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Vector DB
+chroma_db/
+
+# Logs / history
+chat_history.txt
+
+
+# Virtual envs / secrets
+venv/
+.env
