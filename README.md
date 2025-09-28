@@ -1,39 +1,3 @@
-📦 Contents & Structure
-
-Here’s a high-level look at what lives in this repo:
-
-.
-├── chat-bot.py
-├── drafter.py
-├── rag.py
-├── ReActAgent.py
-├── simple_bot.py
-├── stock_market_report.pdf
-├── chat_history.txt
-├── struc.txt
-├── README.md
-├── chroma_db/
-│   ├── chroma.sqlite3
-│   └── <vector store files…>
-└── … other scripts / support files
-
-
-chat-bot.py / simple_bot.py — entry scripts to run conversational agents
-
-drafter.py — drafting / planning logic
-
-rag.py — Retrieval-Augmented Generation (RAG) glue / pipelines
-
-ReActAgent.py — agent with reasoning + action loop (ReAct pattern)
-
-stock_market_report.pdf — sample generated report output
-
-chat_history.txt — session logs / chat transcripts
-
-struc.txt — maybe a structural spec, schema, or notes
-
-chroma_db/ — local vector database / embeddings store
-
 🚀 Getting Started
 
 Follow these steps to clone, set up dependencies, and run a demo.
